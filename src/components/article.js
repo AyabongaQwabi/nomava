@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './article.css'
-
+import defImg from '../static/img3.jpg';
 export const Article = ({ title, info, by, image }) => (
   <div className="article-container" >
     <div className='article'>
-      <img src={image} />
+      <img src={defImg} />
       <div className='detail'>
         <p className='title'>{title}</p>
         <p className='info'>{info}</p>

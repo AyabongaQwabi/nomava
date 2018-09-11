@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'uNomava',
   },
+  pathPrefix: `static`,
   plugins: [
       'gatsby-plugin-react-helmet',
       {
