@@ -9,7 +9,7 @@ const config = [
     by:{
       name:'Siyanda Mtshona'
     },
-    image: '/static/images/img3.jpg',
+    image: './static/images/img3.jpg',
   },
   {
     title:'The Caves of Kuvuki Land',
@@ -17,7 +17,7 @@ const config = [
     by:{
       name:'Afikile Magwaza'
     },
-    image: '/static/images/img3.jpg',
+    image: './static/images/img3.jpg',
   },
   {
     title:'Imbila yase Qoqodala',
@@ -25,7 +25,7 @@ const config = [
     by:{
       name:'Nkolombisa Shiyenga'
     },
-    image: '/static/images/img3.jpg',
+    image: './static/images/img3.jpg',
   },
   {
     title:'The Herbs of the Khoi',
@@ -33,7 +33,7 @@ const config = [
     by:{
       name:'Elrigh Theodore'
     },
-    image: '/static/images/img3.jpg',
+    image: './static/images/img3.jpg',
   }
 ]
 const IndexPage = () => (

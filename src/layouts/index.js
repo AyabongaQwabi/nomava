@@ -8,7 +8,7 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div className='home-container'>
     <div className='home-wrapper'>
-     <img src='/static/images/img1.jpeg' />
+     <img src='./static/images/img1.jpeg' />
       <Helmet
         title={data.site.siteMetadata.title}
         meta={[
